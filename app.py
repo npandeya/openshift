@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome! THIS IS THE CHANGE TO AUTOMATE BUILD IN OPENSHIFT"
+    return "Welcome! THIS IS THE CHANGE TO AUTOMATE BUILD IN OPENSHIFT - change 1"
 
 @app.route('/how are you')
 def hello():
